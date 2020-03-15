@@ -8,7 +8,7 @@ void USART_SendText(volatile char *s)
     // wait until data register is empty
     while( !USART_GetFlagStatus(USART1, USART_FLAG_TXE) );
     USART_SendData(USART1, *s);
-    *s++;
+    s++;
   }
 }
 
