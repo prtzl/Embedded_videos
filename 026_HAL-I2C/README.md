@@ -5,3 +5,5 @@ Therefore part before main while loop and inside it is important. Also include a
 where you have to include external library provided in this folder.
 
 Also make sure to link new library folder in project settings. How to do that is described in VIDEO 25.
+
+![Setup](i2c_configuration.jpg)
