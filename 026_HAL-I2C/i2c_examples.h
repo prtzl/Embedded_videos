@@ -1,5 +1,5 @@
 #ifndef __i2c_examples_H
-#define __i2c_examples
+#define __i2c_examples_H
 
 #include "main.h"
 
