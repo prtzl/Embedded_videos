@@ -1,4 +1,4 @@
-## My STM32CubeIde settings
+## My STM32CubeIde custom settings settings
 STM32CubeIde is based on eclipse, therefore most settings work on other eclipse based IDEs. 
 
 My IDE theme is called Darkest Dark by DevStyle. You can install it yourself by going to Eclipse Marketplace. You can install only the theme or add the icon pack, like myself. After install the IDE will restart. On restart select dark theme (middle one).
