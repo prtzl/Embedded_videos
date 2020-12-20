@@ -1,0 +1,2 @@
+# Eclipse syntax theme
+This theme was downlaoded a long time ago and I use it for my Eclipse and other Eclipse based IDEs like CubeIde. Import it in DevStyle Theme manager in Eclipse Preferences. Refere to VIDEO37 for other informations.
