@@ -17,6 +17,11 @@ To compile multiple source files, just list them in series:
 gcc -c <list_of_source_files ...>
 ```
 
+Add more error detection and convert all warnings to errors:
+```
+gcc -c -Wall -Werror <file_name>.c
+```
+
 To link all object files into executable:
 ```
 gcc -o <executable_name> <list_of_object_files ...>
