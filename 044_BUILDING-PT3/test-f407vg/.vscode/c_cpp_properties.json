@@ -1,0 +1,50 @@
+// Name ${workspaceRoot} folder path names to your project
+// Set paths to arm-none-eabi libraries as it is installed on your system
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath":
+            [
+                "${workspaceFolder}",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "/usr/arm-none-eabi/include",
+                "/usr/arm-none-eabi/include/c++/10.2.0",
+                "/lib/gcc/arm-none-eabi/10.2.0/include",
+                "/lib/gcc/arm-none-eabi/10.2.0/include-fixed",
+                "/usr/arm-none-eabi/include/machine",
+                "/usr/arm-none-eabi/include/newlib-nano",
+                "/usr/arm-none-eabi/include/sys"
+            ],
+            "defines":
+            [
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "browse":
+            {
+                "path":
+                [
+                    "${workspaceFolder}/",
+                    "${workspaceFolder}/Core/Inc",
+                    "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "${workspaceFolder}/Drivers/CMSIS/Include",
+                    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "/usr/arm-none-eabi/include",
+                    "/usr/arm-none-eabi/include/c++/10.2.0",
+                    "/lib/gcc/arm-none-eabi/10.2.0/include",
+                    "/lib/gcc/arm-none-eabi/10.2.0/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}
