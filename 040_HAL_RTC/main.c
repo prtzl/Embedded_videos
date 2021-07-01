@@ -134,7 +134,8 @@ int main(void)
   HAL_UART_Transmit(UartHandle, (uint8_t*)message, size, 50);
 
   // Set date and time
-  sDate.WeekDay = 22;
+  sDate.WeekDay = RTC_WEEKDAY_MONDAY;
+  sDate.Date = 22
   sDate.Month = 2;
   sDate.Year = 20; // from 0-99 (1972 == 72, start year = 1900)
   HAL_RTC_SetDate(RtcHandle, &sDate, RTC_FORMAT_BIN);
