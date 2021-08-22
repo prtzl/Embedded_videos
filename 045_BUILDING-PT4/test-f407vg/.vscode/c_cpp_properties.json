@@ -1,0 +1,33 @@
+// Name ${workspaceRoot} folder path names to your project, also the defines for your MCU
+// Set paths to arm-none-eabi libraries as it is installed on your system
+{
+    "configurations": [
+        {
+            "name": "Linux STM32",
+            "includePath":
+            [
+                "${workspaceFolder}/**",
+                "/nix/store/myxgarp0ymi01bmw28fsrs095nx8rr7w-gcc-arm-embedded-10.2.1/**"
+            ],
+            "defines":
+            [
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "browse":
+            {
+                "path":
+                [
+                    "${workspaceFolder}/**",
+                    "/nix/store/myxgarp0ymi01bmw28fsrs095nx8rr7w-gcc-arm-embedded-10.2.1/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}

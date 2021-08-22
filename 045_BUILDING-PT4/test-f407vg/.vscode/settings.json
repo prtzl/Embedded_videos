@@ -1,0 +1,5 @@
+{
+    "cortex-debug.gdbPath": "/nix/store/myxgarp0ymi01bmw28fsrs095nx8rr7w-gcc-arm-embedded-10.2.1/bin/arm-none-eabi-gdb",
+    "cortex-debug.JLinkGDBServerPath": "/usr/local/bin/JLinkGDBServer",
+    "cortex-debug.stutilPath": "/nix/store/c5jry14fs6idih1gm4ghy7dql5l0adyr-stlink-1.7.0/bin/st-util",
+}

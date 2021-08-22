@@ -1,0 +1,44 @@
+// Name these taks the way you want
+// Configure command in make to use desired amount of threads (now 4)
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build all",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["all", "-j4"]
+        },
+        {
+            "label": "Build clean",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean"]
+        },
+        {
+            "label": "JFlash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-j4","jflash"]
+        },
+        {
+            "label": "STflash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-j4","stflash"]
+        },
+        {
+            "label": "UARTFlash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            // Replace PORT= with your UART port
+            // Linux has ttyUSBx or ttyACMx, windows has COMx
+            "args": ["-j4","uflash", "PORT=/dev/ttyUSB1"]
+        }
+    ]
+}
