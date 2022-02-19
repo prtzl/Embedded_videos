@@ -1,7 +1,0 @@
-device STM32F407VG
-si 1
-speed 4000
-loadbin build/test-f407vg.bin 0x8000000
-r
-g
-qc
